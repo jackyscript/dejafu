@@ -5,33 +5,72 @@ import ExperienceItem from './items/ExperienceItem.vue'
 <template>
   <ExperienceItem>
     <template #company>
-      SRP ‑ Systementwicklung für Raumbezogene Planung GmbH (fmly Gesellschaft für Stadt‑ und
+      &effect data solutions GmbH
+    </template>
+    <template #location>Berlin</template>
+    <template #position> Sofware Developer </template>
+    <template #date>since Jan. 2025</template>
+  </ExperienceItem>
+  <ExperienceItem>
+    <template #company>
+      SRP ‑ Systementwicklung für Raumbezogene Planung GmbH (f.k.a Gesellschaft für Stadt‑ und
+      Regionalplanung mbH)
+    </template>
+    <template #location>Berlin</template>
+    <template #position> Project Lead </template>
+    <template #date>Sep. 2018 - Dec. 2024</template>
+    <ul tabindex="0">
+      <li>
+        Guided the technical and operational development of one of the company's products, acted as main point of
+        contact
+        regarding the development and maintenance of said product.
+      </li>
+    </ul>
+  </ExperienceItem>
+
+  <ExperienceItem>
+    <template #company>
+      SRP ‑ Systementwicklung für Raumbezogene Planung GmbH (f.k.a Gesellschaft für Stadt‑ und
       Regionalplanung mbH)
     </template>
     <template #location>Berlin</template>
     <template #position> Software Developer </template>
-    <template #date>since Oct. 2016</template>
+    <template #date>Oct. 2016 - Dec. 2024</template>
     <ul tabindex="0">
       <li>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-        Lorem ipsum dolor sit amet.
+        Continued developing a geospatial metadata information system, used by multiple governmental administrations of
+        Berlin.
       </li>
       <li>
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-        blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem
-        ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-        ut laoreet dolore magna aliquam erat volutpat.
+        Developed a REST‑API for said system, enabling the integration of externally developed applications.
       </li>
-      <li>
-        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
-        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
-        eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
-        duis dolore te feugait nulla facilisi.
+      <li>Continued developing a desktop application to enhance and ensure metadata conformity
+        of the geospatial infrastructure of Berlin, improved the UI to facilitate a readable appearance and functional
+        user experience for visually impaired users.
       </li>
+      <li>Conducted trainings for said desktop application, conveying fundamental knowledge for metadata creation.</li>
+      <li>Developed a system to support decision making in the field of urban planning by creating a digital
+        representation of Berlin, which
+        collects heterogeneous data in SQL und NoSQL databases and interconnected those meaningfully for stakeholders
+        using a graph
+        database, enriched the latter using data of the Wikidata SPARQL query service, built an SPA client to enable
+        retrieval and presentation of the data.</li>
+      <li>Developed and maintained an application to improve and automate in‑house workflows, which previously were done
+        manually.
+      </li>
+      <li>Developed a web application for a charitable foundation for capturing and monitoring data about endangered
+        plant
+        species in Berlin and to highlight which protective measures for which plant should be prioritized.
+      </li>
+      <li>Continued developing a web application to enable management of compensation areas for governmental
+        administrations in Berlin and stakeholders, developed an import application to enable data integration by
+        external
+        users.
+      </li>
+      <li>Developed a SaaS hosting solution to enable autonomous management and configuration of software components and
+        geodata for administrations of the districts of Berlin.</li>
+      <li>Developed a new metadata management system as successor of the currently in multiple municipalities deployed
+        system.</li>
     </ul>
   </ExperienceItem>
 
@@ -42,15 +81,11 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #date>Sep. 2016 ‑ Oct. 2016</template>
     <ul tabindex="0">
       <li>
-        Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
-        mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-        wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-        aliquip ex ea commodo consequat.
+        Implemented an archive functionality for a metadata information system, which is used by multiple governmental
+        administrations of Berlin.
       </li>
       <li>
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-        illum dolore eu feugiat nulla facilisis.
+        Created a feature to enable user defined configuration of archived and non‑archived datasets.
       </li>
     </ul>
   </ExperienceItem>
@@ -90,9 +125,7 @@ import ExperienceItem from './items/ExperienceItem.vue'
   </ExperienceItem>
 
   <ExperienceItem>
-    <template #company
-      >Institute of Astronomical and Physical Geodesy, Technical University of Munich</template
-    >
+    <template #company>Institute of Astronomical and Physical Geodesy, Technical University of Munich</template>
     <template #location>Munich</template>
     <template #position> Tutor Global Geodetic Observation System and GNSS </template>
     <template #date>Nov. 2013 ‑ Mar. 2015</template>
