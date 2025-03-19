@@ -11,8 +11,8 @@ import SkillsItem from './items/SkillsItem.vue'
       <template #type> Programming languages </template>
       <template #skills>
         <ul>
+          <li>Typescript/Javascript</li>
           <li>Java</li>
-          <li>Javascript</li>
           <li>Python</li>
           <li>Scala</li>
           <li>MATLAB</li>
@@ -39,9 +39,9 @@ import SkillsItem from './items/SkillsItem.vue'
       <template #type> Frameworks </template>
       <template #skills>
         <ul>
+          <li>Vue</li>
           <li>Spring</li>
           <li>Angular</li>
-          <li>Vue</li>
           <li>GWT</li>
         </ul>
       </template>
@@ -85,6 +85,9 @@ import SkillsItem from './items/SkillsItem.vue'
           <li>Netbeans</li>
           <li>Swagger/OpenAPI</li>
           <li>Selenium</li>
+          <li>Pocketbase</li>
+          <li>Ansible</li>
+          <li>Terraform</li>
         </ul>
       </template>
     </SkillsItem>
@@ -93,6 +96,7 @@ import SkillsItem from './items/SkillsItem.vue'
       <template #type> Other </template>
       <template #skills>
         <ul>
+          <li>Gitlab</li>
           <li>Gitea</li>
           <li>Bugzilla</li>
           <li>MS Office</li>
