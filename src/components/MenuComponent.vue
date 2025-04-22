@@ -8,7 +8,7 @@ function brighten() {
 </script>
 
 <template>
-  <nav>
+  <nav class="container">
     <ul>
       <li><strong>Menu</strong></li>
     </ul>

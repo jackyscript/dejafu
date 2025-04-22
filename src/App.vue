@@ -10,7 +10,7 @@ import MenuComponent from './components/MenuComponent.vue'
 
     <HeaderComponent msg="Dezhi Jacky Fu" />
     <MenuComponent></MenuComponent>
-    <nav class="nav">
+    <nav class="nav container">
       <RouterLink to="/">Contact</RouterLink>
       <RouterLink to="/skills">Skills</RouterLink>
       <RouterLink to="/experience">Experience</RouterLink>
@@ -21,7 +21,7 @@ import MenuComponent from './components/MenuComponent.vue'
 
   <RouterView />
 
-  <footer>
+  <footer class="container">
     <a href="#top">Go to top</a>
   </footer>
 </template>
