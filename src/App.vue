@@ -7,8 +7,8 @@ import MenuComponent from './components/MenuComponent.vue'
 <template>
   <header>
     <!--img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /-->
-
-    <HeaderComponent msg="Dezhi Jacky Fu" />
+    
+    <HeaderComponent msg="🌺 hello" />
     <MenuComponent></MenuComponent>
     <nav class="nav container">
       <RouterLink to="/">Contact</RouterLink>

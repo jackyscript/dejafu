@@ -9,6 +9,7 @@ defineProps({
 
 <template>
   <header class="container">
+    <kbd>~/dejafu</kbd>
     <h1>{{ msg }}</h1>
     <a href="#main">Skip to main content</a>
   </header>
