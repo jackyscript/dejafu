@@ -4,10 +4,9 @@ import ContactItem from './items/ContactItem.vue'
 
 <template>
   <p tabindex="0">
-    Hello, I am Dezhi Jacky Fu, I work as an application developer. I have a passion for human
-    focused development, I care for a11y, UX and DX. I am focused, dedicated, hard-working and
-    willing to learn in a changing and challenging environment. I am a trained engineer (M. Sc.) in
-    the field of geodesy, the science of mapping, and geospatial information.
+    Hello, my name is Jacky (pronouns "he/him"). I have a passion for reactive and functional programming and I care for a11y, UX and DX. I am a trained engineer (M. Sc.) in
+    the field of geodesy and geospatial information. I am currently working as a software developer at <a href="https://www.and-effect.com/" target="_blank" rel="noopener">&effect</a> in Berlin.
+
   </p>
   <section>
     <article>
@@ -23,7 +22,7 @@ import ContactItem from './items/ContactItem.vue'
           <template #heading>Address</template>
         </ContactItem>
 
-        <ContactItem id="phone" value="Please ask per mail">
+        <ContactItem id="phone" value="You can send me an email">
           <template #icon>
             <img
               aria-hidden="true"
