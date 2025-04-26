@@ -4,8 +4,8 @@ import ContactItem from './items/ContactItem.vue'
 
 <template>
   <p tabindex="0">
-    Hello, my name is Jacky (pronouns "he/him"). I have a passion for reactive and functional programming and I care for a11y, UX and DX. I am a trained engineer (M. Sc.) in
-    the field of geodesy and geospatial information. I am currently working as a software developer at <a href="https://www.and-effect.com/" target="_blank" rel="noopener">&effect</a> in Berlin.
+    Hello, my name is Jacky (pronouns "he/him"). I have a passion for reactive and functional programming and I care for a11y, UX and DX. I am an engineer in
+    the field of geodesy and geospatial information by training. Currently, I work as a software developer at <a href="https://www.and-effect.com/" target="_blank" rel="noopener">&effect</a> in Berlin.
 
   </p>
   <section>
@@ -20,18 +20,6 @@ import ContactItem from './items/ContactItem.vue'
               alt="An address pin icon"
           /></template>
           <template #heading>Address</template>
-        </ContactItem>
-
-        <ContactItem id="phone" value="You can send me an email">
-          <template #icon>
-            <img
-              aria-hidden="true"
-              class="logo"
-              src="../assets/icons/phone.svg"
-              alt="A phone icon"
-            />
-          </template>
-          <template #heading>Phone</template>
         </ContactItem>
 
         <ContactItem id="mail" value="dezhijacky.fu [ at ] gmail.com">
@@ -53,7 +41,7 @@ import ContactItem from './items/ContactItem.vue'
 
           <template #link>
             <a href="https://github.com/jackyscript" target="_blank" rel="noopener"
-              >Click here to see my github page</a
+              >Click here to see my github profile</a
             ></template
           >
         </ContactItem>
