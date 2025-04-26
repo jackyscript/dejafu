@@ -1,6 +1,6 @@
-# dejafu-cv
+# dejafu
 
-A CV website created with Vue and Vite.
+A personal website created with Vue and Vite.
 
 ## Recommended IDE Setup
 
