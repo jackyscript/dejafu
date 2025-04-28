@@ -23,5 +23,8 @@ defineProps({
 
 h3 {
   line-height: 1.2;
+	padding: 0;
+	background: var(--pico-mark-gradient);
+	background-clip: text;
 }
 </style>
