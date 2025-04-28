@@ -21,9 +21,10 @@ import ExperienceItem from './items/ExperienceItem.vue'
     <template #date>Sep. 2018 - Dec. 2024</template>
     <ul tabindex="0">
       <li>
-        Guided the technical and operational development of one of the company's products, acted as main point of
-        contact
-        regarding the development and maintenance of said product.
+        Guided the technical and operational development of one of the company's products.
+      </li>
+      <li>
+        Acted as main point of contact regarding the development and maintenance of said product.
       </li>
     </ul>
   </ExperienceItem>
