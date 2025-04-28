@@ -11,16 +11,17 @@ defineProps({
 })
 </script>
 <template>
-  <li>
+  <section>
     <slot name="icon"></slot>
-    <label :for="id"> <slot name="heading"></slot></label>
-    <input :id="id" v-if="value !== undefined" readonly type="text" :value="value" />
-    <slot name="link"></slot>
-  </li>
+    <h3><slot name="heading"></slot></h3>
+    <p v-if="value !== undefined" />
+    <slot name="link">{{ value }}</slot>
+  </section>
 </template>
 
 <style scoped>
-.logo {
-  width: 20px;
+
+h3 {
+  line-height: 1.2;
 }
 </style>
