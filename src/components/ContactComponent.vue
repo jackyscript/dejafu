@@ -9,9 +9,6 @@ import ContactItem from './items/ContactItem.vue'
     geospatial information by training. Currently, I work as a software developer at
     <a href="https://www.and-effect.com/" target="_blank" rel="noopener">&effect</a> in Berlin.
   </p>
-  <section>
-    <article>
-      <ul>
         <ContactItem id="address" value="Berlin">
           <template #icon>
             <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
@@ -60,9 +57,6 @@ import ContactItem from './items/ContactItem.vue'
             ></template
           >
         </ContactItem>
-      </ul>
-    </article>
-  </section>
 </template>
 
 <style scoped>
