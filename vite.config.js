@@ -19,5 +19,9 @@ export default defineConfig({
         404: './404.html'
       }
     }
+  },
+  test: {
+    globals: true
   }
+  
 })

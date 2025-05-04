@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContactItem.vue > matches the snapshot 1`] = `
+"<section data-v-f2e26872="">
+  <article data-v-f2e26872="">
+    <h3 data-v-f2e26872=""></h3>
+    <p data-v-f2e26872=""></p>Dezhi Fu
+  </article>
+</section>"
+`;
