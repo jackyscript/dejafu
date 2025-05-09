@@ -179,6 +179,18 @@ import ExperienceItem from './items/ExperienceItem.vue'
       <li>Conducted the tutorial lessons, advised the students during their assignments.</li>
     </ul>
   </ExperienceItem>
+  <ExperienceItem>
+    <template #company>Chair of Photogrammetry, Technical University of Munich</template>
+    <template #location>Munich</template>
+    <template #position> Tutor Photogrammetry </template>
+    <template #date>Jun. 2013 ‑ Jul. 2013</template>
+    <ul tabindex="0">
+      <li>
+        Conducting camera calibration of amateur cameras for industrial applications.
+      </li>
+      <li>Conducted the tutorial lessons, advised the students during their assignments.</li>
+    </ul>
+  </ExperienceItem>
 </template>
 
 <style scoped>
